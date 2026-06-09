@@ -10,6 +10,7 @@ bool searchMatrix(int** matrix, int matrixSize, int* matrixColSize, int target) 
 
         int row = mid / cols;
         int col = mid % cols;
+
         int value = matrix[row][col];
 
         if (value == target) {
